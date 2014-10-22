@@ -20,18 +20,6 @@ import Control.Monad.Trans.Cont
   hiding (callCC)
 
 
--- Except
--------------------------
-
-import Control.Monad.Error.Class
-  as Exports
-
-import Control.Monad.Trans.Except
-  as Exports
-  (ExceptT(ExceptT), Except, except, runExcept, runExceptT, 
-   mapExcept, mapExceptT, withExcept, withExceptT)
-
-
 -- Identity
 -------------------------
 
