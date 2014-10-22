@@ -45,6 +45,13 @@ import Data.Functor.Identity
 import Control.Monad.IO.Class
   as Exports
 
+  
+-- Maybe
+-------------------------
+
+import Control.Monad.Trans.Maybe
+  as Exports
+
 
 -- Reader
 -------------------------
