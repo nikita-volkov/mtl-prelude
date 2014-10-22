@@ -1,7 +1,7 @@
 name:
   mtl-prelude
 version:
-  0.1.0
+  2.0.0
 synopsis:
   Reexports of most definitions from "mtl" and "transformers" 
 description:
@@ -12,6 +12,9 @@ description:
   .
   In combination with the <http://hackage.haskell.org/package/base-prelude "base-prelude"> library,
   this should give you a quite rich prelude.
+  .
+  The @2.*@ versions are are restricted by 
+  the feature set of @mtl == 2.2.*@ and @transformers == 0.4.*@.
 category:
   Prelude
 homepage:
