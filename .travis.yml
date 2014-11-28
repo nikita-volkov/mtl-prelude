@@ -5,10 +5,13 @@ ghc:
   - 7.8
 
 env:
-  - mtl=2.2.* transformers=0.4.*
+  - lower_bound_dependencies=0
   
 install:
-  - cabal install "mtl == $mtl"
-  - cabal install "transformers == $transformers"
+  - if [ $lower_bound_dependencies -eq 1 ];
+    then
+      cabal install "mtl == 2.2.*";
+      cabal install "transformers == 0.4.*";
+    fi;
   - cabal install --only-dependencies --enable-tests --enable-benchmarks --force-reinstalls
 
