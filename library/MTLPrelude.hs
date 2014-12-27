@@ -20,6 +20,13 @@ import Control.Monad.Trans.Cont
   hiding (callCC)
 
 
+-- Error
+-------------------------
+
+import Control.Monad.Error.Class
+  as Exports
+
+
 -- Identity
 -------------------------
 
