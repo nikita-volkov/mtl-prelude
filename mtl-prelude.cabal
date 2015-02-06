@@ -1,7 +1,7 @@
 name:
   mtl-prelude
 version:
-  2.0.1
+  2.0.2
 synopsis:
   Reexports of most definitions from "mtl" and "transformers" 
 description:
@@ -52,7 +52,8 @@ library
     MTLPrelude
   build-depends:
     transformers == 0.4.*,
-    mtl == 2.2.*
+    mtl == 2.2.*,
+    base < 5
   default-extensions:
     NoImplicitPrelude
   default-language:
