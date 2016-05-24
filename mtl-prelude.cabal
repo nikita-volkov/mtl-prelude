@@ -14,7 +14,7 @@ description:
   this should give you a quite rich prelude.
   .
   The @2.*@ versions are restricted by 
-  the feature set of @mtl == 2.2.*@ and @transformers >=0.4 && <0.6@.
+  the feature set of @mtl-2.2@ and @transformers-0.4@.
 category:
   Prelude
 homepage:
@@ -51,7 +51,7 @@ library
   exposed-modules:
     MTLPrelude
   build-depends:
-    transformers >=0.4 && <0.6,
+    transformers >= 0.4 && < 0.6,
     mtl == 2.2.*,
     base < 5
   default-extensions:
