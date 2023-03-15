@@ -14,6 +14,7 @@ where
 
 import Control.Monad.Cont.Class
   as Exports
+  hiding (liftCallCC)
 
 import Control.Monad.Trans.Cont
   as Exports
